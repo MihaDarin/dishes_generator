@@ -1,8 +1,19 @@
 import React from "react";
 import "./App.css";
+import { Body } from "./components/Body/Body";
+import { Footer } from "./components/Footer/Footer";
+import { Header } from "./components/Header/Header";
+import { Navbar } from "./components/Navbar/Navbar";
 
 function App() {
-  return <div className="App">Работает</div>;
+  return (
+    <div className="App">
+      <Header />
+      <Navbar />
+      <Body />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
